@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
@@ -16,10 +20,13 @@ header {
 	justify-content: space-between;
 }
 
+main {
+	flex: 1 0 auto;
+}
+
 footer {
 	border-top: 1px solid #000;
 	height: 118px;
-
 }
 
 a {
@@ -38,20 +45,16 @@ h1 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	margin-right: 150px;
+	margin-right: 75px;
 }
 
 .logo_container {
-	margin-left: 150px;
+	margin-left: 75px;
 }
 
-.login_container {
-	display: flex;
-
-}
 
 .flex_1 {
-	margin-left: 40px;
+	margin-left: 26px;
 }
 
 #burger_menu {
