@@ -27,10 +27,14 @@ main {
 }
 
 footer {
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 14px;
+	font-weight: 500;
 	position: absolute;
 	border-top: 1px solid #000;
 	height: 118px;
-	display: flex;
 	width: 100%;
 	bottom: 0;
 	left: 0
@@ -99,10 +103,37 @@ h1 {
 }
 
 .information {
-	font-size: 14px;
 	flex-wrap: wrap;
 	width: 472px;
-	height: 35px;
-	font-weight: 500;
+	height: 70px;
 	margin: 10px 0 10px 100px;
+}
+
+.contacts {
+	margin: 20px 100px 0 0;
+	width: 228px;
+	height: 47px;
+	justify-content: flex-end;
+	align-content: center;
+}
+
+.contacts p {
+	margin: 1px 0;
+}
+
+.soc_media {
+	margin-top: 8px;
+}
+
+.soc_media img {
+	width: 27px;
+	height: 27px;
+}
+
+.soc_media a {
+	margin-right: 4px;
+}
+
+.soc_media a:last-child {
+	margin-right: 0;
 }
