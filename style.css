@@ -15,6 +15,7 @@ body {
 	line-height: 16px;
 	display: flex;
 	flex-direction: column;
+	overflow: none;
 }
 
 header {
@@ -129,22 +130,33 @@ h1 {
 }
 
 .slider_container {
-	width: 100%;
-	height: 545px;
+	height: 450px;
+}
+
+.content {
+	opacity: 0;
+	transition: opacity .6s;
+	pointer-events: none;
+}
+
+.content_1, .content_2, .content_3 {
+	position: absolute;
 	display: flex;
-	margin-top: 10px;
+	flex-direction: column;
+	width: 100%;
+	height: 450px;
 }
 
 .slider_photo img{
 	position: absolute;
+	left: 0;
 	z-index: -1;
 	width: 100%;
-	height: 545.03px;
 	filter: blur(6px);
 }
 
 .slider_text_container {
-	margin: auto;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -244,3 +256,49 @@ h1 {
 	width: 150px;
 	border-right: 1px solid #000;
 }
+
+.slider_switches {
+	margin-top: 20px;
+	display: flex;
+
+	justify-content: center;
+}
+
+.point {
+	width: 26px;
+	height: 26px;
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin-right: 32px;
+	pointer-events: auto;
+}
+
+#i_1, #i_2, #i_3 {
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+#i_1:checked ~ .slider_container .content_1,
+#i_2:checked ~ .slider_container .content_2,
+#i_3:checked ~ .slider_container .content_3 {
+	height: 450px;
+	opacity: 1;
+	pointer-events: auto;
+
+}
+
+.slider_switches label {
+	color: #000;
+	transition-duration: .6s;
+	cursor: pointer;
+}
+
+#i_1:checked ~ .slider_switches label[for="i_1"],
+#i_2:checked ~ .slider_switches label[for="i_2"],
+#i_3:checked ~ .slider_switches label[for="i_3"] {
+	background-color: #000;
+}
+
