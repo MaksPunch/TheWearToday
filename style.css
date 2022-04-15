@@ -222,7 +222,7 @@ header {
 
 /* Best Things */
 
-.best_things_inner {
+.things_inner {
 	margin: auto;
 	margin-top: 20px;
 	width: 1232px;
@@ -232,18 +232,18 @@ header {
 	justify-content: center;
 }
 
-.best_things_header {
+.things_header {
 	font-size: 32px;
 	margin-bottom: 20px;
 }
 
-.best_things_container {
+.things_container {
 	display: flex;
 	width: 1231px;
 	justify-content: space-between;
 }
 
-.best_container {
+.container {
 	margin-top: 10px;
 	width: 347px;
 	height: 392px;
@@ -255,17 +255,17 @@ header {
 	border-radius: 5px;
 }
 
-.best_1 {
+.odezda {
 	display: flex;
 	flex-direction: column;
 	margin-top: 32px;
 }
 
-.best_photo {
+.photo {
 	align-self: center;
 }
 
-.best_info {
+.info {
 	width: 100%;
 	border-bottom: 1px solid #000;
 	height: 67px;
@@ -274,17 +274,17 @@ header {
 	justify-content: space-between;
 }
 
-.best_info p {
+.info p {
 	margin: 0 20px;
 	align-self: center;
 }
 
-.buttons_best {
+.buttons {
 	display: flex;
 	justify-content: space-around;
 }
 
-.bin_best, .buy_best {
+.bin, .buy {
 	background: #fff;
 	border: 0;
 	font-size: 32px;
@@ -293,12 +293,12 @@ header {
 	outline: none;
 }
 
-.bin_best {
+.bin {
 	width: 197px;
 	height: 76px;
 }
 
-.buy_best {
+.buy {
 	width: 150px;
 	border-right: 1px solid #000;
 }
