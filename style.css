@@ -491,14 +491,13 @@ footer {
 
 .buy_1_container {
 	display: flex;
-	margin-top: 20px;
-	margin-left: 350px;
-	margin-bottom: 248px;
+	margin-left: 250px;
+	margin-bottom: 20px;
+	align-items: center;
 
 	background: #FFFFFF;
 }
 .buy_1 {
-	margin-top: 32px;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
 	height: 473px;
 	width: 394.25;
@@ -515,6 +514,7 @@ footer {
 	font-size: 64px;
 	display: flex;
 	justify-content: space-between;
+	height: 100px;
 }
 .description {
 	flex-wrap: wrap;
@@ -544,6 +544,7 @@ footer {
 }
 .size_button {
 	display: flex;
+	justify-content: flex-end;
 	margin-top: 8px;
 	margin-left: 122px;
 	width: 402px;
@@ -574,12 +575,12 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	margin-left: 309px;
+	margin-left: 372px;
 	margin-top: 20px;
 }
 
 .edem_za_pivom {
-	margin-left: 99px;
+	margin-left: 160px;
 }
 .trash_can {
 	width: 292px;
@@ -587,7 +588,7 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	margin-left: 309px;
+	margin-left: 372px;
 	margin-top: 20px;
 }
 
