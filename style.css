@@ -23,8 +23,9 @@ main {
 }
 
 button {
-	background-color: transparent;
+	background: transparent;
 	border: 1px solid #000;
+	cursor: pointer;
 }
 
 a {
@@ -39,6 +40,8 @@ h1, h1 a {
 	margin: 0;
 	font-size: 40px;
 }
+
+
 
 /* Header */
 
@@ -81,10 +84,10 @@ header {
 .left_menu {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	vertical-align: center;
-	margin-left: 500px;
-	margin-right: 300px;
+	margin-left: 30%;
+	margin-right: 15%;
 }
 
 .login{
@@ -130,7 +133,6 @@ header {
 	width: 100%;
 	height: 100%;
 }
-
 /* Header End */
 
 /* Slider */
@@ -234,13 +236,10 @@ header {
 
 /* Best Things */
 
-.things_inner {
+.things {
 	margin: auto;
 	margin-top: 20px;
-	width: 1232px;
-	height: 452px;
-
-
+	margin-left: 12%;
 	justify-content: center;
 }
 
@@ -253,6 +252,7 @@ header {
 	display: flex;
 	width: 1231px;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .container {
@@ -261,7 +261,7 @@ header {
 	height: 392px;
 	left: 350px;
 	top: 700px;
-
+	margin-bottom: 20px;
 	background: #FFFFFF;
 	box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
@@ -296,7 +296,7 @@ header {
 	justify-content: space-around;
 }
 
-.bin, .buy {
+.bin	, .buy {
 	background: #fff;
 	border: 0;
 	font-size: 32px;
@@ -369,6 +369,82 @@ footer {
 }
 
 /* Footer End */
+
+/* Bin Page */
+
+.bin_container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.bin_things_container {
+	margin-left: 215px;
+}
+
+.bin_thing {
+	display: flex;
+	height: 202px;
+	margin-top: 20px;
+}
+
+.bin_thing:first-child {
+	margin-top: 0;
+}
+
+.bin_thing_desc {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	font-size: 32px;
+	line-height: 1;
+}
+
+.bin_thing_desc p {
+	margin-top: 10px;
+}
+
+.bin_photo {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding: 27px 21px;
+}
+
+.bin_overall {
+	display: flex;
+	flex-direction: column;
+	margin-right: 215px;
+	margin-top: 20px;
+}
+
+.make_order {
+	align-self: flex-end;
+	margin-top: 92px;
+}
+
+.make_order button {
+	font-size: 24px;
+	width: 300px;
+	height: 55px;
+}
+
+.bin_overall h1 {
+	align-self: flex-end;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 57px;
+}
+
+.delete_button {
+	width: 218px;
+	height: 55px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	margin-left: 20px;
+	align-self: flex-end;
+}
+
+/* Bin Page End */
 
 /* Buy Page */
 
@@ -475,79 +551,3 @@ footer {
 }
 
 /* Buy Page End */
-
-/* Bin Page */
-
-.bin_container {
-	display: flex;
-	justify-content: space-between;
-	margin: 20px 0;
-}
-
-.bin_things_container {
-	margin-left: 215px;
-}
-
-.bin_thing {
-	display: flex;
-	height: 202px;
-	margin-top: 20px;
-}
-
-.bin_thing:first-child {
-	margin-top: 0;
-}
-
-.bin_thing_desc {
-	display: flex;
-	flex-direction: column;
-	margin-left: 20px;
-	font-size: 32px;
-	line-height: 1;
-}
-
-.bin_thing_desc p {
-	margin-top: 10px;
-}
-
-.bin_photo {
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	border-radius: 5px;
-	padding: 27px 21px;
-}
-
-.bin_overall {
-	display: flex;
-	flex-direction: column;
-	margin-right: 215px;
-	margin-top: 20px;
-}
-
-.make_order {
-	align-self: flex-end;
-	margin-top: 92px;
-}
-
-.make_order button {
-	font-size: 24px;
-	width: 300px;
-	height: 55px;
-}
-
-.bin_overall h1 {
-	align-self: flex-end;
-	font-weight: 700;
-	margin-bottom: 20px;
-	font-size: 57px;
-}
-
-.delete_button {
-	width: 218px;
-	height: 55px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	margin-left: 20px;
-	align-self: flex-end;
-}
-
-/* Bin Page End */
