@@ -23,9 +23,8 @@ main {
 }
 
 button {
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid #000;
-	cursor: pointer;
 }
 
 a {
@@ -82,43 +81,12 @@ header {
 .left_menu {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	vertical-align: center;
-	margin-left: 30%;
-	margin-right: 15%;
+	margin-left: 500px;
+	margin-right: 300px;
 }
 
-.login{
-	display: flex;
-	width: 1200px;
-	margin-left: 12%;
-	margin-top: 80px;
-	justify-content: space-around;
-}
-
-.right_log_side{
-	border: 2px solid black;
-}
-
-.text{
-	border: 2px solid black;
-}
-
-.potverd{
-	margin-top: 20px;
-}
-
-.inputs{
-	height: 50px;
-	text-align: center;
-}
-
-.logo_s{
-	font-family: "Syne", sans-serif;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
 /* Header End */
 
 /* Slider */
@@ -222,48 +190,50 @@ header {
 
 /* Best Things */
 
-.things {
+.best_things_inner {
 	margin: auto;
 	margin-top: 20px;
-	margin-left: 12%;
+	width: 1232px;
+	height: 452px;
+
+
 	justify-content: center;
 }
 
-.things_header {
+.best_things_header {
 	font-size: 32px;
 	margin-bottom: 20px;
 }
 
-.things_container {
+.best_things_container {
 	display: flex;
 	width: 1231px;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
-.container {
+.best_container {
 	margin-top: 10px;
 	width: 347px;
 	height: 392px;
 	left: 350px;
 	top: 700px;
-	margin-bottom: 20px;
+
 	background: #FFFFFF;
 	box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
 }
 
-.odezda {
+.best_1 {
 	display: flex;
 	flex-direction: column;
 	margin-top: 32px;
 }
 
-.photo {
+.best_photo {
 	align-self: center;
 }
 
-.info {
+.best_info {
 	width: 100%;
 	border-bottom: 1px solid #000;
 	height: 67px;
@@ -272,17 +242,17 @@ header {
 	justify-content: space-between;
 }
 
-.info p {
+.best_info p {
 	margin: 0 20px;
 	align-self: center;
 }
 
-.buttons {
+.buttons_best {
 	display: flex;
 	justify-content: space-around;
 }
 
-.bin	, .buy {
+.bin_best, .buy_best {
 	background: #fff;
 	border: 0;
 	font-size: 32px;
@@ -291,12 +261,12 @@ header {
 	outline: none;
 }
 
-.bin {
+.bin_best {
 	width: 197px;
 	height: 76px;
 }
 
-.buy {
+.buy_best {
 	width: 150px;
 	border-right: 1px solid #000;
 }
@@ -356,76 +326,108 @@ footer {
 
 /* Footer End */
 
-/* Bin Page */
+/* Buy Page */
 
-.bin_container {
+.buy_1_container {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 350px;
+	margin-bottom: 248px;
+
+	background: #FFFFFF;
+}
+.buy_1 {
+	margin-top: 32px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+	height: 473px;
+	width: 394.25;
+}
+.buy_kofta {
+	width: 394.25px;
+	height: 473px;
+	align-self: center;
+}
+.name_price {
+	font-family: 'Syne', sans-serif;
+	font-weight: 700;
+	margin-left: 44px;
+	font-size: 64px;
 	display: flex;
 	justify-content: space-between;
-	margin: 20px 0;
 }
-
-.bin_things_container {
-	margin-left: 215px;
-}
-
-.bin_thing {
-	display: flex;
-	height: 202px;
-	margin-top: 20px;
-}
-
-.bin_thing:first-child {
-	margin-top: 0;
-}
-
-.bin_thing_desc {
-	display: flex;
-	flex-direction: column;
-	margin-left: 20px;
-	font-size: 32px;
-	line-height: 1;
-}
-
-.bin_thing_desc p {
-	margin-top: 10px;
-}
-
-.bin_photo {
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-	border-radius: 5px;
-	padding: 27px 21px;
-}
-
-.bin_overall {
-	display: flex;
-	flex-direction: column;
-	margin-right: 215px;
-	margin-top: 20px;
-}
-
-.make_order {
-	align-self: flex-end;
-	margin-top: 92px;
-}
-
-.make_order button {
-	font-size: 24px;
-	width: 300px;
-	height: 55px;
-}
-
-.bin_overall h1 {
-	align-self: flex-end;
-	font-weight: 700;
-	margin-bottom: 20px;
-	font-size: 57px;
-}
-
-.delete_button {
-	width: 218px;
-	height: 55px;
+.description {
+	flex-wrap: wrap;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-left: 44px;
 	font-size: 24px;
-	margin-left: 20px;
-	align-self: flex-end;
+	line-height: 28.18px;
 }
+.resale {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	margin-left: 44px;
+	font-size: 24px;
+	display: flex;
+}
+
+.resale p {
+	margin: 0;
+}
+.resale_size {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 44px;
+	display: flex;
+}
+.size_button {
+	display: flex;
+	margin-top: 8px;
+	margin-left: 122px;
+	width: 402px;
+	height: 62px;
+}
+
+.size_button button {
+	height: 62px;
+	width: 63.5px;
+	border-right: 0;
+	border-left: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+.size_button button:last-child {
+	border-right: 1px solid #000;
+	width: 84.5px;
+}
+
+.size_button button:first-child {
+	border-left: 1px solid #000;
+}
+.buy_buy {
+	width: 292px;
+	height: 74px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 309px;
+	margin-top: 20px;
+}
+
+.edem_za_pivom {
+	margin-left: 99px;
+}
+.trash_can {
+	width: 292px;
+	height: 74px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 309px;
+	margin-top: 20px;
+}
+
+/* Buy Page End */
