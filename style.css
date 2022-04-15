@@ -23,9 +23,8 @@ main {
 }
 
 button {
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid #000;
-	cursor: pointer;
 }
 
 a {
@@ -34,7 +33,7 @@ a {
 	font-family: 'Raleway', sans-serif;
 }
 
-h1 {
+h1, h1 a {
 	font-family: 'Syne', sans-serif;
 	font-weight: 800;
 	margin: 0;
@@ -82,10 +81,10 @@ header {
 .left_menu {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	vertical-align: center;
-	margin-left: 30%;
-	margin-right: 15%;
+	margin-left: 500px;
+	margin-right: 300px;
 }
 
 .login{
@@ -131,6 +130,7 @@ header {
 	width: 100%;
 	height: 100%;
 }
+
 /* Header End */
 
 /* Slider */
@@ -234,10 +234,13 @@ header {
 
 /* Best Things */
 
-.things {
+.things_inner {
 	margin: auto;
 	margin-top: 20px;
-	margin-left: 12%;
+	width: 1232px;
+	height: 452px;
+
+
 	justify-content: center;
 }
 
@@ -250,7 +253,6 @@ header {
 	display: flex;
 	width: 1231px;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 .container {
@@ -259,7 +261,7 @@ header {
 	height: 392px;
 	left: 350px;
 	top: 700px;
-	margin-bottom: 20px;
+
 	background: #FFFFFF;
 	box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
@@ -294,7 +296,7 @@ header {
 	justify-content: space-around;
 }
 
-.bin	, .buy {
+.bin, .buy {
 	background: #fff;
 	border: 0;
 	font-size: 32px;
@@ -367,6 +369,112 @@ footer {
 }
 
 /* Footer End */
+
+/* Buy Page */
+
+.buy_1_container {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 350px;
+	margin-bottom: 248px;
+
+	background: #FFFFFF;
+}
+.buy_1 {
+	margin-top: 32px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+	height: 473px;
+	width: 394.25;
+}
+.buy_kofta {
+	width: 394.25px;
+	height: 473px;
+	align-self: center;
+}
+.name_price {
+	font-family: 'Syne', sans-serif;
+	font-weight: 700;
+	margin-left: 44px;
+	font-size: 64px;
+	display: flex;
+	justify-content: space-between;
+}
+.description {
+	flex-wrap: wrap;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-left: 44px;
+	font-size: 24px;
+	line-height: 28.18px;
+}
+.resale {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	margin-left: 44px;
+	font-size: 24px;
+	display: flex;
+}
+
+.resale p {
+	margin: 0;
+}
+.resale_size {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 44px;
+	display: flex;
+}
+.size_button {
+	display: flex;
+	margin-top: 8px;
+	margin-left: 122px;
+	width: 402px;
+	height: 62px;
+}
+
+.size_button button {
+	height: 62px;
+	width: 63.5px;
+	border-right: 0;
+	border-left: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+.size_button button:last-child {
+	border-right: 1px solid #000;
+	width: 84.5px;
+}
+
+.size_button button:first-child {
+	border-left: 1px solid #000;
+}
+.buy_buy {
+	width: 292px;
+	height: 74px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 309px;
+	margin-top: 20px;
+}
+
+.edem_za_pivom {
+	margin-left: 99px;
+}
+.trash_can {
+	width: 292px;
+	height: 74px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin-left: 309px;
+	margin-top: 20px;
+}
+
+/* Buy Page End */
 
 /* Bin Page */
 
@@ -441,3 +549,5 @@ footer {
 	margin-left: 20px;
 	align-self: flex-end;
 }
+
+/* Bin Page End */
