@@ -18,32 +18,10 @@ body {
 	overflow: none;
 }
 
-header {
-	height: 58px;
-	border-bottom: 1px solid #000;
-	width: 100%;
-	margin: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
 main {
 	flex: 1 0 auto;
 }
 
-footer {
-	display: flex;
-	justify-content: space-between;
-
-	font-size: 14px;
-	font-weight: 500;
-	border-top: 1px solid #000;
-	height: 118px;
-	width: 100%;
-	bottom: 0;
-	left: 0
-}
 
 a {
 	color: black;
@@ -56,6 +34,18 @@ h1 {
 	font-weight: 800;
 	margin: 0;
 	font-size: 40px;
+}
+
+/* Header */
+
+header {
+	height: 58px;
+	border-bottom: 1px solid #000;
+	width: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .right_side {
@@ -93,41 +83,9 @@ h1 {
 	margin-right: 300px;
 }
 
-.information {
-	flex-wrap: wrap;
-	width: 472px;
-	height: 70px;
-	margin: 10px 0 10px 100px;
-}
+/* Header End */
 
-.contacts {
-	margin: 20px 100px 0 0;
-	width: 228px;
-	height: 47px;
-	justify-content: flex-end;
-	align-content: center;
-}
-
-.contacts p {
-	margin: 1px 0;
-}
-
-.soc_media {
-	margin-top: 8px;
-}
-
-.soc_media img {
-	width: 27px;
-	height: 27px;
-}
-
-.soc_media a {
-	margin-right: 4px;
-}
-
-.soc_media a:last-child {
-	margin-right: 0;
-}
+/* Slider */
 
 .slider_container {
 	height: 450px;
@@ -176,6 +134,57 @@ h1 {
 	font-size: 72px;
 	align-self: center;	
 }
+
+
+.slider_switches {
+	margin-top: 20px;
+	display: flex;
+
+	justify-content: center;
+}
+
+.point {
+	width: 26px;
+	height: 26px;
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin-right: 32px;
+	pointer-events: auto;
+}
+
+#i_1, #i_2, #i_3 {
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+#i_1:checked ~ .slider_container .content_1,
+#i_2:checked ~ .slider_container .content_2,
+#i_3:checked ~ .slider_container .content_3 {
+	height: 450px;
+	opacity: 1;
+	pointer-events: auto;
+
+}
+
+.slider_switches label {
+	color: #000;
+	transition-duration: .6s;
+	cursor: pointer;
+}
+
+#i_1:checked ~ .slider_switches label[for="i_1"],
+#i_2:checked ~ .slider_switches label[for="i_2"],
+#i_3:checked ~ .slider_switches label[for="i_3"] {
+	background-color: #000;
+}
+
+
+/* Slider End */
+
+/* Best Things */
 
 .best_things_inner {
 	margin: auto;
@@ -257,48 +266,57 @@ h1 {
 	border-right: 1px solid #000;
 }
 
-.slider_switches {
-	margin-top: 20px;
+/* Slider End */
+
+/* Footer */
+
+footer {
 	display: flex;
+	justify-content: space-between;
 
-	justify-content: center;
+	font-size: 14px;
+	font-weight: 500;
+	border-top: 1px solid #000;
+	height: 118px;
+	width: 100%;
+	bottom: 0;
+	left: 0
 }
 
-.point {
-	width: 26px;
-	height: 26px;
-	background: transparent;
-	border: 1px solid #000;
-	border-radius: 50%;
-	margin-right: 32px;
-	pointer-events: auto;
+.information {
+	flex-wrap: wrap;
+	width: 472px;
+	height: 70px;
+	margin: 10px 0 10px 100px;
 }
 
-#i_1, #i_2, #i_3 {
-	margin: 0 auto;
-	width: 0;
-	height: 0;
-	opacity: 0;
+.contacts {
+	margin: 20px 100px 0 0;
+	width: 228px;
+	height: 47px;
+	justify-content: flex-end;
+	align-content: center;
 }
 
-#i_1:checked ~ .slider_container .content_1,
-#i_2:checked ~ .slider_container .content_2,
-#i_3:checked ~ .slider_container .content_3 {
-	height: 450px;
-	opacity: 1;
-	pointer-events: auto;
-
+.contacts p {
+	margin: 1px 0;
 }
 
-.slider_switches label {
-	color: #000;
-	transition-duration: .6s;
-	cursor: pointer;
+.soc_media {
+	margin-top: 8px;
 }
 
-#i_1:checked ~ .slider_switches label[for="i_1"],
-#i_2:checked ~ .slider_switches label[for="i_2"],
-#i_3:checked ~ .slider_switches label[for="i_3"] {
-	background-color: #000;
+.soc_media img {
+	width: 27px;
+	height: 27px;
 }
 
+.soc_media a {
+	margin-right: 4px;
+}
+
+.soc_media a:last-child {
+	margin-right: 0;
+}
+
+/* Footer End */
