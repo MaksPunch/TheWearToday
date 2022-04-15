@@ -83,7 +83,37 @@ header {
 	margin-right: 15%;
 }
 
+.login{
+	display: flex;
+	width: 1200px;
+	margin-left: 12%;
+	margin-top: 80px;
+	justify-content: space-around;
+}
 
+.right_log_side{
+	border: 2px solid black;
+}
+
+.text{
+	border: 2px solid black;
+}
+
+.potverd{
+	margin-top: 20px;
+}
+
+.inputs{
+	height: 50px;
+	text-align: center;
+}
+
+.logo_s{
+	font-family: "Syne", sans-serif;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 /* Header End */
 
 /* Slider */
