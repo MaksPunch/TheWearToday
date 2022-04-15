@@ -320,3 +320,14 @@ footer {
 }
 
 /* Footer End */
+
+/* Bin Page */
+
+.bin_thing_container {
+	margin: 20px;
+}
+
+.bin_overall h1 { 
+	text-align: right;
+	margin-right: 150px;
+}
