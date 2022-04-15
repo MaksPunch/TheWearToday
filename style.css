@@ -203,6 +203,10 @@ header {
 	pointer-events: auto;
 }
 
+.point:last-child {
+	margin-right: 0;
+}
+
 #i_1, #i_2, #i_3 {
 	margin: 0 auto;
 	width: 0;
@@ -236,16 +240,14 @@ header {
 
 /* Best Things */
 
-.things {
-	margin: auto;
+.things {	
 	margin-top: 20px;
-	margin-left: 12%;
-	justify-content: center;
 }
 
 .things_header {
 	font-size: 32px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .things_container {
@@ -253,6 +255,7 @@ header {
 	width: 1231px;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin: 0 auto;
 }
 
 .container {
