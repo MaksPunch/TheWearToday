@@ -209,14 +209,14 @@ header {
 
 .things_container {
 	display: flex;
-	width: 1231px;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0 auto;
+	align-content: center;
 }
 
 .container {
-	margin-top: 10px;
+	margin: 10px 10px 0px 10px;
 	width: 347px;
 	height: 392px;
 	left: 350px;
@@ -282,8 +282,6 @@ header {
 footer {
 	display: flex;
 	justify-content: space-between;
-
-	font-size: 14px;
 	font-weight: 500;
 	border-top: 1px solid #000;
 	height: 118px;
@@ -295,11 +293,11 @@ footer {
 	flex-wrap: wrap;
 	width: 472px;
 	height: 70px;
-	margin: 10px 0 10px 100px;
+	margin-left: 4%;
 }
 
 .contacts {
-	margin: 20px 100px 0 0;
+	margin-right: 4%;
 	width: 228px;
 	height: 47px;
 	justify-content: flex-end;
@@ -315,8 +313,8 @@ footer {
 }
 
 .soc_media img {
-	width: 27px;
-	height: 27px;
+	width: 25px;
+	height: 25px;
 }
 
 .soc_media a {
@@ -818,6 +816,13 @@ footer {
 	height: 25px;
 	margin-top: 10px;
   }
+  .things_container{
+	flex-wrap: wrap;
+	width: 70%;
+  }
+  footer{
+	 font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 998px) and (min-width: 509px) {
@@ -858,6 +863,13 @@ footer {
 	height: 25px;
 	margin-top: 10px;
   }
+  .things_container{
+	flex-direction: column;
+	width: 100%;
+  }
+  footer{
+	 font-size: 14px;
+  }	
 }
 
 @media screen and (max-width: 508px) {
@@ -897,6 +909,10 @@ footer {
   .menu {
 	height: 20px;
 	margin-top: 5px;
+  }
+  .things_container{
+	flex-direction: column;
+	width: 100%;
   }
 }
 /* media */
