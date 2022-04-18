@@ -31,7 +31,7 @@
 				<a href="#">О нас</a></div>
 				<a class="bin_button" href="bin.html"><u>Корзина</u></a>
 		</div>
-		<div class="order_header">
+		<div class="main_order_header">
 			<h2>Оформление заказа</h2>
 		</div>
 		<div class="contact_info">
@@ -51,19 +51,115 @@
 				<input class="inputs2" type="text" size="40" placeholder="E-mail адрес">
 			</div>
 		</div>
-		<div class="delivery_container">
-			<div class="delivery_header">
+		<div class="order_container delivery_container">
+			<div class="order_header">
 				<h3>Способ доставки</h3>
 			</div>
-			<div class="delivery_options">
-				<div class="pickup">
-					Самовывоз
+			<div class="delivery_upper_panel">
+				<div class="delivery_options">
+					<button class="pickup">
+						Самовывоз
+					</button>
+					<button class="delivery">
+						Доставка
+					</button>
 				</div>
-				<div class="delivery">
-					Доставка
+				<div class="delivery_city">
+					<input type="text" class='inputs2' placeholder='Город'>
+				</div>
+				<div class="save_changes">
+					<button>Сохранить данные</button>
+				</div>
+			</div>
+			<div class="delivery_point_container">
+				<div class="delivery_point_header">
+					<p>Выберите пункт доставки</p>
+				</div>
+				<button>Выбрать пункт доставки</button>
+			</div>
+		</div>
+		<div class="order_container payment_container">
+			<div class="order_header">
+				<h3>Способ оплаты</h3>
+			</div>
+			<div class="payment_options">
+				<button class="cardOr">
+					<p>Наличными</p>
+					<p>Картой</p>
+				</button>
+				<button>Онлайн</button>
+				<button>В кредит</button>
+				<div class="save_changes">
+					<button>Сохранить данные</button>
+				</div>
+			</div>
+			<div class="payment_advice">
+				<p>Возьмите с собой наличные или пластиковую банковскую карту. Оплата Apple Pay и Google Pay временно недоступна</p>
+			</div>
+		</div>
+		<div class="order_container my_order">
+			<div class="order_info">
+				<div class="order_header my_order_header">
+					<h3>Мой заказ</h3>
+				</div>
+				<p>8000p</p>
+			</div>
+			<div class="ordered_things_container">
+				<div class="ordered_thing">
+					<div class="ordered_thing_photo">
+						<img src="img/jacket.png" alt="" width='85' height="88">
+					</div>
+					<div class="ordered_info">
+						<div class="order_name_price">
+							<p>Кофта</p>
+							<p>2000p</p>
+						</div>
+						<button class="ordered_delete">
+						</button>
+					</div>
+				</div>
+				<div class="ordered_thing">
+					<div class="ordered_thing_photo">
+						<img src="img/jacket.png" alt="" width='85' height="88">
+					</div>
+					<div class="ordered_info">
+						<div class="order_name_price">
+							<p>Кофта</p>
+							<p>2000p</p>
+						</div>
+						<button class="ordered_delete">
+						</button>
+					</div>
+				</div>
+				<div class="ordered_thing">
+					<div class="ordered_thing_photo">
+						<img src="img/jacket.png" alt="" width='85' height="88">
+					</div>
+					<div class="ordered_info">
+						<div class="order_name_price">
+							<p>Кофта</p>
+							<p>2000p</p>
+						</div>
+						<button class="ordered_delete">
+						</button>
+					</div>
+				</div>
+				<div class="ordered_thing">
+					<div class="ordered_thing_photo">
+						<img src="img/jacket.png" alt="" width='85' height="88">
+					</div>
+					<div class="ordered_info">
+						<div class="order_name_price">
+							<p>Кофта</p>
+							<p>2000p</p>
+						</div>
+						<button class="ordered_delete">
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
+		<button class="order_confirm">Оформить заказ</button>
 	<footer>
 			<div class="information">
 				<p>The Wear Today - компания, которая дарит вам счастье каждый день, предлагая высококачественную продукцию по доступным ценам.</p>
