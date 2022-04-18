@@ -419,12 +419,16 @@ footer {
 .buy_1 {
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
 	height: 473px;
-	width: 394.25;
+	width: 394.25px;
+	display: flex;
+    align-items: center;
 }
 .buy_kofta {
 	width: 394.25px;
 	height: 473px;
 	align-self: center;
+	display: flex;
+    align-items: center;
 }
 .name_price {
 	font-family: 'Syne', sans-serif;
