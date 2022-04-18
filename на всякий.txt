@@ -1,20 +1,22 @@
-<div class="left_log_side">
-					<div class="text">
-						<p>Работая с нами, Вы получаете ряд преимуществ:</p>
-						<ul>
-							<li>Возможность выставлять и продвигать свои объявления</li>
-							<li>Поддерживать прямую связь с клиентами</li>
-							<li>Получать быстрый ответ от тех. поддержки по интересующим Вас вопросам</li>
-							<li>Личный кабинет, с подробной статистикой Ваших объявлений</li>
-							<li>Персональные скидки</li>
-							<li>Только проверенные продавцы</li>
-							<li>Удобные способы оплаты</li>
-						</ul>
-					</div>
-</div>
+<!DOCTYPE HTML>
+<html>
 
+<head>
+  <meta charset="utf-8">
+</head>
 
+<body>
 
-<div class="potverd">
-					<input class="inputs" type="text" size="40" placeholder="Код потверждения">
-				</div>
+  <input type="button" id="hider" value="Нажмите, чтобы спрятать текст" />
+
+  <div id="text">Текст</div>
+
+  <script>
+    // Здесь не важно, как мы скрываем текст.
+    // Также можно использовать style.display:
+    document.getElementById('hider').onclick = function() {
+      document.getElementById('text').hidden = true;
+    }
+  </script> 
+</body>
+</html>
