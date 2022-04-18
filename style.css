@@ -61,6 +61,7 @@ h3 {
 .hidden {
 	display: none !important;
 }
+
 h4 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
@@ -77,8 +78,6 @@ input {
 	font-size: 14px;
 }
 
-<<<<<<< Updated upstream
-=======
 u {
 	text-decoration-thickness: 1px;
 }
@@ -86,7 +85,6 @@ u {
 .hidden {
 	display: none;
 }
->>>>>>> Stashed changes
 
 /* global end */
 
