@@ -271,13 +271,13 @@ header {
 	width: 100%;
 	border-bottom: 1px solid #000;
 	height: 67px;
-	font-size: 32px;
+	font-size: 28px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .info p {
-	margin: 0 20px;
+	margin: 0 17.5px;
 	align-self: center;
 }
 
@@ -289,7 +289,7 @@ header {
 .bin, .buy {
 	background: #fff;
 	border: 0;
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 16px;
 	height: 76px;
 	cursor: pointer;
@@ -1318,7 +1318,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 509px) and (max-width: 998px) {
+@media screen and (min-width: 509px) and (max-width: 999px) {
   h1, h1 a {
     font-size: 20px;
   }
@@ -1356,8 +1356,11 @@ footer {
 	height: 25px;
 	margin-top: 10px;
   }
+  .things{
+	width: 90%
+  }
   .things_container{
-	flex-direction: column;
+	flex-direction: row;
 	width: 100%;
   }
   footer{
