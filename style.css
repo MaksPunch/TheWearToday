@@ -49,6 +49,7 @@ h2 {
 	font-weight: 700;
 	margin: 0;
 	font-size: 64px;
+	line-height: 0.9;
 }
 
 h3 {
@@ -1089,6 +1090,32 @@ footer {
 	width: 100%;
 }
 
+
+
+.input_card {
+	background-color: rgba(196, 196, 196, 0.5);
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	outline: none;
+	padding-left: 10px;
+}
+
+.input_card::placeholder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+
+.profile_order {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/* Profile Page End*/
+
+/* media */
+
 @media screen and (min-width: 1821px) {
   h1, h1 a {
     font-size: 40px;
@@ -1138,25 +1165,6 @@ footer {
 	 font-size: 14px;
   }
 }
-
-.input_card {
-	background-color: rgba(196, 196, 196, 0.5);
-	height: 50px;
-	margin-top: 5px;
-	margin-bottom: 20px;
-	border: 1px solid #000;
-	outline: none;
-	padding-left: 10px;
-}
-
-.input_card::placeholder {
-	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-}
-
-/* Profile Page End*/
-
-/* media */
 
 @media screen and (min-width: 1580px) and (max-width: 1821px){
   h1, h1 a {
