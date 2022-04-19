@@ -1212,7 +1212,7 @@ footer {
 
 .profile_order_info_bottom {
 	display: flex;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 .confirmation_date {
@@ -1229,7 +1229,7 @@ footer {
 
 .profile_order_advanced {
 	display: flex;
-	padding: 10px 20px 10px 39px;
+	padding: 10px 32px 10px 39px;
 	margin-bottom: 20px;
 	border: 1px solid #000;
 	border-top: 0;

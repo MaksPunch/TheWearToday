@@ -23,7 +23,9 @@
 		</div>
 	</header>
 	<main>
-		<button class="hidden" id="open_close_advanced" name="switch"></button>
+		<button class="hidden" id="open_close_advanced_1" name="switch"></button>
+		<button class="hidden" id="open_close_advanced_2" name="switch"></button>
+		<button class="hidden" id="open_close_advanced_3" name="switch"></button>
 		<div class="menu">
 			<div class="left_menu">
 				<a href="index.html"><u>Главная</u></a>
@@ -132,7 +134,7 @@
 									<div class="order_price">
 										4000p
 									</div>
-									<label class="rotate_down arrow" for="open_close_advanced"></label>
+									<label id="arrow_1" class="rotate_down arrow" for="open_close_advanced_1"></label>
 								</div>
 								<div class="profile_order_info_bottom">
 									<div class="confirmation_date">
@@ -143,7 +145,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="profile_order_advanced">
+							<div class="profile_order_advanced" id="advanced_1">
 								<div class="profile_order_photo">
 									<img src="img/jacket.png" alt="" width="72" height="74">
 								</div>
@@ -167,29 +169,72 @@
 							<div class="profile_order_info">
 								<div class="profile_order_info_top">
 									<div class="number">
-										Заказ №113059
+										Заказ №136838
 									</div>
 									<div class="order_date">
-										от 21.01.2021
+										от 14.02.2021
 									</div>
 									<div class="order_count">
 										1 товар
 									</div>
 									<div class="order_price">
-										4000p
+										2000p
 									</div>
-									<label class="rotate_down arrow" for="open_close_advanced"></label>
+									<label id="arrow_2" class="rotate_right arrow" for="open_close_advanced_2"></label>
 								</div>
 								<div class="profile_order_info_bottom">
 									<div class="confirmation_date">
-										Заказ получен 28.01.2021
+										Заказ получен 21.02.2021
 									</div>
 									<div class="profile_order_status">
 										Завершен
 									</div>
 								</div>
 							</div>
-							<div class="profile_order_advanced">
+							<div class="profile_order_advanced opacity_0" id="advanced_2">
+								<div class="profile_order_photo">
+									<img src="img/jacket.png" alt="" width="72" height="74">
+								</div>
+								<div class="order_advanced_info">
+									<div class="advanced_name">
+										Кофта, размер S
+									</div>
+									<div class="advanced price">
+										2000р
+									</div>
+								</div>
+								<div class="advanced_count">
+									2шт
+								</div>
+								<div class="advanced_price">
+									2000p
+								</div>
+							</div>
+						</div>
+						<div class="profile_order_thing">
+							<div class="profile_order_info">
+								<div class="profile_order_info_top">
+									<div class="number">
+										Заказ №672890
+									</div>
+									<div class="order_date">
+										от 09.03.2021
+									</div>
+									<div class="order_count">
+										2 товара
+									</div>
+									<div class="order_price">
+										4500p
+									</div>
+									<label id="arrow_3" class="rotate_right arrow" for="open_close_advanced_3"></label>
+								</div>
+								<div class="profile_order_info_bottom">
+									<div class="profile_order_status">
+										В процессе
+									</div>
+								</div>
+							</div>
+							<div class="profile_order_advanced opacity_0" id="advanced_3">
 								<div class="profile_order_photo">
 									<img src="img/jacket.png" alt="" width="72" height="74">
 								</div>
@@ -241,10 +286,22 @@
 			document.querySelector('.add_card_1').classList.toggle('hidden');
 		}
 
-		document.querySelector('#open_close_advanced').onclick = function() {
-			document.querySelector('.arrow').classList.toggle('rotate_right')
-			document.querySelector('.arrow').classList.toggle('rotate_down')
-			document.querySelector('.profile_order_advanced').classList.toggle('opacity_0')
+		document.querySelector('#open_close_advanced_1').onclick = function() {
+			document.querySelector('#arrow_1').classList.toggle('rotate_right')
+			document.querySelector('#arrow_1').classList.toggle('rotate_down')
+			document.querySelector('#advanced_1').classList.toggle('opacity_0')
+		}
+
+		document.querySelector('#open_close_advanced_2').onclick = function() {
+			document.querySelector('#arrow_2').classList.toggle('rotate_right')
+			document.querySelector('#arrow_2').classList.toggle('rotate_down')
+			document.querySelector('#advanced_2').classList.toggle('opacity_0')
+		}
+
+		document.querySelector('#open_close_advanced_3').onclick = function() {
+			document.querySelector('#arrow_3').classList.toggle('rotate_right')
+			document.querySelector('#arrow_3').classList.toggle('rotate_down')
+			document.querySelector('#advanced_3').classList.toggle('opacity_0')
 		}
 	</script>
 </body>
