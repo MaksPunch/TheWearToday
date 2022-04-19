@@ -1640,3 +1640,92 @@ footer {
 }
 
 /* editing end */
+
+/* about_us */
+
+.about {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px
+}
+
+.about2 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 54px;
+	display: flex;
+	justify-content: center;
+}
+
+.benefits {
+	margin: 10px 10px 0px 10px;
+	width: 450px;
+	height: 500px;
+	left: 350px;
+	top: 700px;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+.benefits_container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	align-content: center;
+	width: 95%;
+}
+
+.benefits_text {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.procent {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+/* about_as end */
+
+.ad {
+	display: flex;
+}
+
+.profile_ad_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	margin-left: 350px;
+}
+
+.ad_button {
+	display: flex;
+	width: 180px;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.profile_ad {
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+	width: 842px;
+	height: 662px;
+	border: 1px solid #000;
+
+}
