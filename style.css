@@ -436,28 +436,24 @@ footer {
 
 /* Buy Page start */
 
-.buy_1_container {
+.buy_container {
 	display: flex;
 	margin-left: 250px;
 	margin-bottom: 20px;
 	align-items: center;
-
 	background: #FFFFFF;
 }
 .buy_1 {
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
-	height: 473px;
-	width: 394.25px;
-	display: flex;
-    align-items: center;
+	height: 315px;
+	width: 300px;
 }
-.buy_kofta {
-	width: 394.25px;
-	height: 473px;
-	align-self: center;
-	display: flex;
-    align-items: center;
+
+.phototobuy{
+	width: 270px;	
+	margin: 15px;
 }
+
 .name_price {
 	font-family: 'Syne', sans-serif;
 	font-weight: 700;
@@ -490,31 +486,26 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	margin-left: 44px;
 	display: flex;
 }
 .size_button {
 	display: flex;
-	justify-content: flex-end;
 	margin-top: 8px;
-	margin-left: 122px;
-	width: 402px;
+	width: 100%;
 	height: 62px;
 }
 
 .size_button button {
-	height: 62px;
-	width: 63.5px;
+	height: 50px;
+	width: 100%;
 	border-right: 0;
 	border-left: 0;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 32px;
 }
 
 .size_button button:last-child {
 	border-right: 1px solid #000;
-	width: 84.5px;
 }
 
 .size_button button:first-child {
@@ -1380,7 +1371,7 @@ footer {
   }
   .left_menu{
 	margin-left: 4%;
-	margin-right: 8	%;
+	margin-right: 8%;
   }
   .slider_header {
 	font-size: 35px;
@@ -1424,7 +1415,7 @@ footer {
   }
   .left_menu{
 	margin-left: 4%;
-	margin-right: 8	%;
+	margin-right: 8%;
   }
   .slider_header {
 	font-size: 30px;
