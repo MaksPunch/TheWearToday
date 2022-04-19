@@ -38,11 +38,6 @@ a {
 	font-family: 'Raleway', sans-serif;
 }
 
-h1, h1 a {
-	font-family: 'Syne', sans-serif;
-	font-weight: 800;
-	margin: 0;
-}
 
 h2 {
 	font-family: 'Syne', sans-serif;
@@ -228,7 +223,7 @@ header {
 /* Things start */
 
 .things {	
-	margin: 20px auto 0px auto;
+	margin: 20px auto 0 auto;
 }
 
 .things_header {
@@ -247,14 +242,14 @@ header {
 }
 
 .container {
-	margin: 10px 10px 0px 10px;
+	margin: 10px 10px 0 10px;
 	width: 300px;
 	height: 392px;
 	left: 350px;
 	top: 700px;
 	margin-bottom: 20px;
 	background: #FFFFFF;
-	box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 17px rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
 }
 
@@ -394,7 +389,7 @@ footer {
 }
 
 .bin_photo {
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	border-radius: 5px;
 	padding: 27px 21px;
 }
@@ -417,7 +412,7 @@ footer {
 	height: 55px;
 }
 
-.bin_overall h1 {
+.bin_overall h1{
 	align-self: flex-end;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -436,48 +431,53 @@ footer {
 /* Bin Page end */
 
 /* Buy Page start */
+.left_buy{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.right_buy{
+	margin-left: 4%;
+	margin-right: 4%;
+}
 
 .buy_container {
 	display: flex;
-	margin-left: 250px;
 	margin-bottom: 20px;
 	align-items: center;
 	background: #FFFFFF;
+	justify-content: center;
+	flex-wrap: wrap;
 }
+
 .buy_1 {
-	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 	height: 315px;
 	width: 300px;
 }
 
 .phototobuy{
-	width: 270px;	
+	width: 270px;
+	height: 280px;
 	margin: 15px;
 }
 
 .name_price {
 	font-family: 'Syne', sans-serif;
 	font-weight: 700;
-	margin-left: 44px;
-	font-size: 64px;
 	display: flex;
 	justify-content: space-between;
-	height: 100px;
 }
 .description {
 	flex-wrap: wrap;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	margin-left: 44px;
-	font-size: 24px;
+	font-weight: 400;	
 	line-height: 28.18px;
 }
-.resale {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	margin-left: 44px;
-	font-size: 24px;
+.resaler {
+	margin-top: 10px;
 	display: flex;
+	justify-content: space-between;
 }
 
 .resale p {
@@ -513,26 +513,31 @@ footer {
 	border-left: 1px solid #000;
 }
 .buy_buy {
-	width: 292px;
-	height: 74px;
+	width: 130px;
+	height: 50px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	margin-left: 372px;
-	margin-top: 20px;
+	margin-right: 5px;
 }
 
 .edem_za_pivom {
 	margin-left: 160px;
 }
 .trash_can {
-	width: 292px;
-	height: 74px;
+	width: 130px;
+	height: 50px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	margin-left: 372px;
-	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.buy_buttons{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: flex-end;
 }
 
 /* Buy Page end */
@@ -730,7 +735,7 @@ footer {
     align-items: center;
 	width: 144px;
 	height: 144px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .ordered_info p {
@@ -851,11 +856,8 @@ footer {
 
 .logo_s{
 	font-family: "Syne", sans-serif;
-	margin-top: 20px;
-	margin-left: 10px;
-	margin-right: 10px;
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 20px 10px 20px 10px;
 }	
 
 .wraper{
@@ -920,7 +922,7 @@ footer {
 .infotext{
 	text-align: center;
 	font-size: 12px;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 10px;
 }
 
@@ -1008,7 +1010,7 @@ footer {
 }
 
 .profile_info p {
-	margin: 0px;
+	margin: 0;
 	line-height: 23px;
 }
 
@@ -1117,7 +1119,10 @@ footer {
 /* media */
 
 @media screen and (min-width: 1821px) {
-  h1, h1 a {
+  h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
     font-size: 40px;
   }
   body {
@@ -1161,13 +1166,23 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-around;
   }
+  .name_price{
+	font-size: 64px;
+  }
+  .description{
+	font-size: 24px;
+  }
+  
   footer{
 	 font-size: 14px;
   }
 }
 
 @media screen and (min-width: 1580px) and (max-width: 1821px){
-  h1, h1 a {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
     font-size: 40px;
   }
   body {
@@ -1214,10 +1229,19 @@ footer {
   footer{
 	 font-size: 14px;
   }
+  .name_price{
+	font-size: 64px;
+  }
+  .description{
+	font-size: 24px;
+  }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1579px) {
-  h1, h1 a {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
     font-size: 40px;
   }
   body {
@@ -1263,12 +1287,21 @@ footer {
   }
   footer{
 	 font-size: 14px;
+  }
+  .name_price{
+	font-size: 64px;
+  }
+  .description{
+	font-size: 24px;
   }
 }
 
 
 @media screen and (min-width: 1000px) and (max-width: 1399px){
-  h1, h1 a {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
     font-size: 40px;
   }
   body {
@@ -1315,10 +1348,19 @@ footer {
   footer{
 	 font-size: 14px;
   }
+  .name_price{
+	font-size: 42px;
+  }
+  .description{
+	font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 509px) and (max-width: 999px) {
-  h1, h1 a {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
     font-size: 20px;
   }
   body {
@@ -1364,11 +1406,20 @@ footer {
   }
   footer{
 	 font-size: 14px;
-  }	
+  }
+  .name_price{
+	font-size: 24px;
+  }
+  .description{
+	font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 508px) and (min-width: 360px){
-  h1, h1 a {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
     font-size: 15px;
   }
   body {
@@ -1409,10 +1460,19 @@ footer {
 	flex-direction: column;
 	width: 100%;
   }
+  .description{
+	font-size: 16px;
+  }
+  .name_price{
+	font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 359px) and (min-width: 299px){
-  h1, h1 a {
+   h1 a {
+	font-family: 'Syne', sans-serif;
+	font-weight: 800;
+	margin: 0;
     font-size: 13px;
   }
   body {
@@ -1458,6 +1518,15 @@ footer {
   }
   .information{
 	  margin-right: 12px;
+  }
+  .description{
+	font-size: 16px;
+  }
+  .name_price{
+	font-size: 24px;
+  }
+  .buy_buttons{
+	justify-content: center;
   }
 }
 /* media */
@@ -1508,7 +1577,7 @@ footer {
 }
 
 .buy_2 {
-	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 	height: 473px;
 	width: 394.25px;
 	display: flex;
