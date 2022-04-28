@@ -48,7 +48,7 @@
 
 .make_order {
 	align-self: flex-end;
-	margin-top: 92px;
+	margin-top: 14%;
 }
 
 .make_order button {
@@ -71,6 +71,11 @@
 	font-size: 24px;
 	margin-left: 20px;
 	align-self: flex-end;
+}
+
+.bin_img {
+	width: 140px;
+	height: 150px;
 }
 
 /* Bin Page end */

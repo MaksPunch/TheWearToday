@@ -395,6 +395,44 @@ footer {
   .benefits_text{
 	  font-size: 32px;
   }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 6%;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 57px;
+  	margin: 0;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1579px) {
@@ -465,6 +503,44 @@ footer {
   }
   .benefits_text{
 	  font-size: 32px;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 6%;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 57px;
+  	margin: 0;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
   }
 }
 
@@ -537,6 +613,44 @@ footer {
   }
   .benefits_text{
 	  font-size: 32px;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 6%;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 24px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 57px;
+  	margin: 0;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
   }
 }
 
@@ -612,6 +726,49 @@ footer {
   .profile_cards_container{
 	  display: none;
   }
+  .bin_container {
+  	flex-wrap: wrap;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+  	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 24px;
+  	margin-right: 4%;
+  	line-height: 0.9;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+  .make_order {
+  	margin-top: 0;
+  	align-self: flex-end;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 36px;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  	margin-left: 0;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
+  }
 }
 
 @media screen and (max-width: 508px) and (min-width: 360px){
@@ -679,6 +836,49 @@ footer {
   }
   .profile_cards_container{
 	  display: none;
+  }
+    .bin_container {
+  	flex-wrap: wrap;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	flex-wrap: wrap;
+   	height: auto;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 20px;
+  	margin-right: 4%;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 0;
+  	margin-top: 4%;
+  }
+  .make_order {
+  	margin-top: 0;
+  	align-self: flex-start;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 36px;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  	margin-left: 0;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
   }
 }
 
@@ -760,6 +960,48 @@ footer {
   .profile_order_inner{
 	  margin-left: 0;
 	  border: none;
+  }
+  .bin_container {
+  	flex-wrap: wrap;
+  }
+  .bin_things_container {
+  	margin-left: 4%;
+  }
+  .bin_thing {
+  	height: auto;
+  	flex-wrap: wrap;
+  	margin-bottom: 4%;
+  }
+  .bin_thing_desc {
+  	font-size: 20px;
+  }
+  .bin_overall {
+  	margin-left: 4%;
+  	margin-right: 0;
+  	margin-top: 4%;
+  }
+  .make_order {
+  	margin-top: 0;
+  	align-self: flex-start;
+  }
+  .make_order button {
+  	font-size: 20px;
+  	width: 100%
+  }
+  .bin_overall h1 {
+  	line-height: 1;
+  	font-size: 36px;
+  }
+  .delete_button {
+  	width: 130px;
+  	height: 50px;
+  	font-size: 20px;
+  	margin-top: 5%;
+  	margin-left: 0;
+  }
+  .bin_img {
+  	width: 100px;
+  	height: 100px;
   }
 }
 /* media end*/
