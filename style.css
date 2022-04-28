@@ -609,6 +609,9 @@ footer {
   .benefits_text{
 	  font-size: 32px;
   }
+  .profile_cards_container{
+	  display: none;
+  }
 }
 
 @media screen and (max-width: 508px) and (min-width: 360px){
@@ -673,6 +676,9 @@ footer {
   }
   .benefits_text{
 	  font-size: 25px;
+  }
+  .profile_cards_container{
+	  display: none;
   }
 }
 
@@ -747,6 +753,13 @@ footer {
   }
   .benefits_text{
 	  font-size: 25px;
+  }
+  .profile_cards_container{
+	  display: none;
+  }
+  .profile_order_inner{
+	  margin-left: 0;
+	  border: none;
   }
 }
 /* media end*/
