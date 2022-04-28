@@ -324,6 +324,9 @@ footer {
   .benefits_text{
 	  font-size: 32px;
   }
+  .profile_order {
+	width: 35%;
+  }
 }
 
 @media screen and (min-width: 1580px) and (max-width: 1821px){
@@ -432,6 +435,9 @@ footer {
   .bin_img {
   	width: 100px;
   	height: 100px;
+  }
+  .profile_order {
+	width: 35%;
   }
 }
 
@@ -769,6 +775,44 @@ footer {
   	width: 100px;
   	height: 100px;
   }
+  .profile_photo {
+	width: 90px;
+	height: 90px;
+  }
+  .profile_img {
+  	width: 40px;
+  }
+  .profile_photo p {
+  	font-size: 10px;
+  }
+  .profile_info p {
+  	font-size: 14px;
+  }
+  .profile_info button {
+  	margin-top: 0;
+  	height: 40px;
+  	width: 130px;
+  	font-size: 14px;
+  }
+  .profile_order_header {
+  	text-align: center;
+  }
+  .profile_order_filter {
+  	justify-content: center;
+  }
+  .profile_order_header h2 {
+  	font-size: 42px;
+  }
+  .profile_order_advanced {
+  	padding: 1% 4% 1% 4%;
+  }
+  .order_advanced_info {
+  	margin-left: 2%;
+  }
+  .order_img {
+  	width: 40px;
+  	height: 40px;
+  }
 }
 
 @media screen and (max-width: 508px) and (min-width: 360px){
@@ -879,6 +923,44 @@ footer {
   .bin_img {
   	width: 100px;
   	height: 100px;
+  }
+  .profile_photo {
+	width: 90px;
+	height: 90px;
+  }
+  .profile_img {
+  	width: 40px;
+  }
+  .profile_photo p {
+  	font-size: 10px;
+  }
+  .profile_info p {
+  	font-size: 14px;
+  }
+  .profile_info button {
+  	margin-top: 0;
+  	height: 40px;
+  	width: 130px;
+  	font-size: 14px;
+  }
+  .profile_order_header {
+  	text-align: center;
+  }
+  .profile_order_filter {
+  	justify-content: center;
+  }
+  .profile_order_header h2 {
+  	font-size: 32px;
+  }
+  .profile_order_advanced {
+  	padding: 1% 4% 1% 4%;
+  }
+  .order_advanced_info {
+  	margin-left: 2%;
+  }
+  .order_img {
+  	width: 40px;
+  	height: 40px;
   }
 }
 
@@ -1002,6 +1084,44 @@ footer {
   .bin_img {
   	width: 100px;
   	height: 100px;
+  }
+  .profile_photo {
+	width: 90px;
+	height: 90px;
+  }
+  .profile_img {
+  	width: 40px;
+  }
+  .profile_photo p {
+  	font-size: 10px;
+  }
+  .profile_info p {
+  	font-size: 14px;
+  }
+  .profile_info button {
+  	margin-top: 0;
+  	height: 40px;
+  	width: 130px;
+  	font-size: 14px;
+  }
+  .profile_order_header {
+  	text-align: center;
+  }
+  .profile_order_filter {
+  	justify-content: center;
+  }
+  .profile_order_header h2 {
+  	font-size: 32px;
+  }
+  .profile_order_advanced {
+  	padding: 1% 4% 1% 4%;
+  }
+  .order_advanced_info {
+  	margin-left: 2%;
+  }
+  .order_img {
+  	width: 40px;
+  	height: 40px;
   }
 }
 /* media end*/

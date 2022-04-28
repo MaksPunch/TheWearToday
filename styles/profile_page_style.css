@@ -191,7 +191,6 @@
 }
 
 .profile_order_info_top {
-	line-height: 1;
 	display: flex;
 }
 
@@ -251,6 +250,11 @@
 .profile_order_photo {
 	align-self: center;
 	z-index: 0;
+}
+
+.order_img {
+	width: 74px;
+	height: 72px;
 }
 
 .order_advanced_info {
