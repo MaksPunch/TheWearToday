@@ -241,6 +241,7 @@ footer {
 	width: 180px;
 	justify-content: center;
 	margin-top: 20px;
+	align-items: center;
 }
 
 .profile_ad {
@@ -248,7 +249,7 @@ footer {
 	margin-left: 80px;
 	margin-bottom: 50px;
 	width: 842px;
-	height: 662px;
+	height: 626px;
 	border: 1px solid #000;
 }
 

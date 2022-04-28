@@ -312,4 +312,13 @@
 	border-bottom: 1px solid #000;
 }
 
+.sales_info {
+	line-height: 1;
+	margin-left: 20px;
+}
+
+.income {
+	margin: 0 auto;
+}
+
 /* Profile Page End*/

@@ -17,17 +17,22 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Дни', 'Продано'],
+          ['Года', 'Продано'],
           ['2004',  1000],
           ['2005',  1170],
           ['2006',  660],
-          ['2007',  1030]
+          ['2007',  1030],
+          ['2008',  2500],
+          ['2009',  1337],
         ]);
 
         var options = {
           title: 'Прибыль',
           curveType: 'function',
-          legend: { position: 'bottom' }
+          legend: 'none',
+          series: {
+            0: { color: '#000' },
+        	}
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
@@ -85,7 +90,16 @@
 			</div>
 			<div class="profile_ad">
 				<div class="profile_ad_head">
-					<div id="curve_chart" style="width: 100%; height: 500px"></div>
+					<div id="curve_chart" style="width: 100%; height: 400px"></div>
+					<div class="sales_info">
+						<p>Продано: 7697 шт.</p>
+						<p>Добавлено в корзину: 300 шт.</p>
+						<p>Осталось на складе: 973 шт.</p>
+						<div class="income">
+							<p>Чистая прибыль:</p>
+							<p>130000руб</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -106,16 +120,5 @@
 			</div>
 		</div>
 	</footer>
-	<script>
-		document.querySelector('.add_card_1').onclick = function() {
-			document.querySelector('.add_card_menu').classList.toggle('hidden');
-			document.querySelector('.add_card_1').classList.toggle('hidden');
-		}
-
-		document.querySelector('.add_card').onclick = function() {
-			document.querySelector('.add_card_menu').classList.toggle('hidden');
-			document.querySelector('.add_card_1').classList.toggle('hidden');
-		}
-	</script>
 </body>
 </html>
