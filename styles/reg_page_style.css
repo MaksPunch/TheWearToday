@@ -140,7 +140,7 @@
 	width: 170px;
 }
 
-.login_container2 {
+.login_container {
 	display: flex;
 	width: 90%;
     height: 290px;
@@ -152,4 +152,11 @@
     margin: auto;
 	justify-content: center;
 }
+
+.vostanovlenie{
+	border: 2px solid black;
+	width: 300px;
+	height: 290px;
+}
+
 /* login page end */
